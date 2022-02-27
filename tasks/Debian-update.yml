@@ -1,0 +1,6 @@
+---
+- name: Updating debian system
+  apt:
+    name: "*"
+    state: latest
+    update_cache: true

@@ -1,0 +1,5 @@
+---
+- name: Update rhel based system
+  ansible.builtin.yum:
+    name: "*"
+    state: latest
