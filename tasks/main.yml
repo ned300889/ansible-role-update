@@ -1,0 +1,12 @@
+---
+- name: "Update cache and upgrade packages"
+  ansible.builtin.apt:
+    name: '*'
+    state: 'latest'
+    update_cache: true
+  register: result
+
+- name: "Reboot if any changes are made"
+  ansible.builtin.reboot:
+  when: result.changed
+  tags: notest
