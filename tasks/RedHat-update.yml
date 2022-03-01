@@ -1,5 +1,0 @@
----
-- name: Update rhel based system
-  dnf:
-    name: "*"
-    state: latest

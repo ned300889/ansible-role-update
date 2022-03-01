@@ -14,8 +14,9 @@ jobs:
       fail-fast: false
       matrix:
         scenario:
-          - centos7
-          - centos8
+          - debian11
+          - debian10
+          - debian9
           - ubuntu1804 
           - ubuntu2004
     steps:
