@@ -4,4 +4,4 @@
   tasks:
     - name: "Include update"
       include_role:
-        name: "test-update"
+        name: "testUpdate"
