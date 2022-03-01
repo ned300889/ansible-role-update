@@ -13,7 +13,7 @@ galaxy_info:
     - "bionic"
   - name: Debian
     versions:
-    - 11
-    - 10
-    - 9
+    - "buster"
+    - "etch"
+    - "jessie"
   galaxy_tags: []
