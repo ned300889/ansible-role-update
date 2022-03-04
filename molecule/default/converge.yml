@@ -4,4 +4,4 @@
   tasks:
     - name: "Include update"
       include_role:
-        name: "ned300889.test_update"
+        name: "ned300889.update"
